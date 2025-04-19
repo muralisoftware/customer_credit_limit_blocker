@@ -5,8 +5,6 @@
     'description': 'Open WhatsApp Web with pre-filled message for the contact number.',
     'category': 'Tools',
     'author': 'Murali',
-    'price': 29,
-    'currency': 'USD',
     'depends': ['sale', 'account'],
     'data': [
         'views/sale_order_view.xml',
@@ -15,7 +13,7 @@
     ],
     'installable': True,
     'application': False,
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
     "images":["static/description/Banner.png"],
     'icon': 'static/description/icon.png',
 }
